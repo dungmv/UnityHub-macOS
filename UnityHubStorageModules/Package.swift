@@ -13,8 +13,7 @@ let package = Package(
 		),
 	],
 	dependencies: [
-		.package(url: "https://github.com/ryanslikesocool/UserIcon.git", branch: "main"),
-
+		.package(path: "../UserIcon"),
 		.package(path: "../UnityHubCommonModules"),
 	],
 	targets: [

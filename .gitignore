@@ -95,3 +95,4 @@ iOSInjectionProject/
 # Unnecessary
 ~Reference
 ~Application Support
+.DS_Store
