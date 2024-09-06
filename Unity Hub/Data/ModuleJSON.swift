@@ -12,7 +12,7 @@ struct ModuleJSON: Codable {
     var name: String
     var description: String
     var downloadUrl: String
-    var installedSize: Int
+    var installedSize: Float
     var downloadSize: Int
     var visible: Bool
     var selected: Bool
