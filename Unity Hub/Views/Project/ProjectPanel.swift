@@ -19,7 +19,6 @@ struct ProjectPanel: View {
     var body: some View {
         GeometryReader { geometry in
             let sizeBinding = Binding(get: { geometry.size.width }, set: { _ in })
-
             List {
                 ForEach(settings.hub.projects.filter { searchText.isEmpty ? true : $0.name.lowercased().contains(searchText.lowercased()) }) { project in
                     let dataBinding = Binding(
@@ -38,7 +37,7 @@ struct ProjectPanel: View {
             .onChange(of: settings.hub.usePins || settings.hub.showFileSize) { _ in
                 updateList.toggle()
             }
-			.animation(.interactiveSpring())
+			.animation(.interactiveSpring(), value: searchText)
             .toolbar {
                 ToolbarItem(placement: .automatic) {
                     SearchBar(text: $searchText)

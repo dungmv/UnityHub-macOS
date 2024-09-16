@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -94,7 +94,7 @@
 		AF3C26D72615DF4C0005B10E /* TrackingAreaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingAreaView.swift; sourceTree = "<group>"; };
 		AF59FEA4251EBB4A0093D284 /* EmojiPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiPicker.swift; sourceTree = "<group>"; };
 		AF5A94CF251BF9E3002FA410 /* DownloadInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadInfo.swift; sourceTree = "<group>"; };
-		AF66EBEA251AE3900088EC84 /* Unity Hub S.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Unity Hub S.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF66EBEA251AE3900088EC84 /* Unity Hub Native.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Unity Hub Native.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF66EBED251AE3900088EC84 /* UnityHubApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnityHubApp.swift; sourceTree = "<group>"; };
 		AF66EBEF251AE3900088EC84 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AF66EBF1251AE3910088EC84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -186,7 +186,7 @@
 		AF66EBEB251AE3900088EC84 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AF66EBEA251AE3900088EC84 /* Unity Hub S.app */,
+				AF66EBEA251AE3900088EC84 /* Unity Hub Native.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -341,9 +341,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AF66EBE9251AE3900088EC84 /* Unity Hub S */ = {
+		AF66EBE9251AE3900088EC84 /* Unity Hub Native */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AF66EBFD251AE3910088EC84 /* Build configuration list for PBXNativeTarget "Unity Hub S" */;
+			buildConfigurationList = AF66EBFD251AE3910088EC84 /* Build configuration list for PBXNativeTarget "Unity Hub Native" */;
 			buildPhases = (
 				AF66EBE6251AE3900088EC84 /* Sources */,
 				AF66EBE7251AE3900088EC84 /* Frameworks */,
@@ -354,12 +354,12 @@
 			);
 			dependencies = (
 			);
-			name = "Unity Hub S";
+			name = "Unity Hub Native";
 			packageProductDependencies = (
 				AF4D2103251EBA220029101C /* Smile */,
 			);
 			productName = "Unity Hub";
-			productReference = AF66EBEA251AE3900088EC84 /* Unity Hub S.app */;
+			productReference = AF66EBEA251AE3900088EC84 /* Unity Hub Native.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -393,7 +393,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AF66EBE9251AE3900088EC84 /* Unity Hub S */,
+				AF66EBE9251AE3900088EC84 /* Unity Hub Native */,
 			);
 		};
 /* End PBXProject section */
@@ -598,7 +598,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"Unity Hub/Preview Content\"";
-				DEVELOPMENT_TEAM = 838RGQ32CA;
+				DEVELOPMENT_TEAM = A5367HLPFW;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Unity Hub/Info.plist";
@@ -608,7 +608,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.1;
-				PRODUCT_BUNDLE_IDENTIFIER = RyanBoyer.UnityHub;
+				PRODUCT_BUNDLE_IDENTIFIER = dungmv.UnityHubNative;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -624,7 +624,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"Unity Hub/Preview Content\"";
-				DEVELOPMENT_TEAM = 838RGQ32CA;
+				DEVELOPMENT_TEAM = A5367HLPFW;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Unity Hub/Info.plist";
@@ -634,7 +634,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.1;
-				PRODUCT_BUNDLE_IDENTIFIER = RyanBoyer.UnityHub;
+				PRODUCT_BUNDLE_IDENTIFIER = dungmv.UnityHubNative;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -652,7 +652,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AF66EBFD251AE3910088EC84 /* Build configuration list for PBXNativeTarget "Unity Hub S" */ = {
+		AF66EBFD251AE3910088EC84 /* Build configuration list for PBXNativeTarget "Unity Hub Native" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AF66EBFE251AE3910088EC84 /* Debug */,

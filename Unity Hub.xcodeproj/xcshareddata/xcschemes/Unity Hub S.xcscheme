@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "AF66EBE9251AE3900088EC84"
-               BuildableName = "Unity Hub S.app"
-               BlueprintName = "Unity Hub S"
+               BuildableName = "Unity Hub Native.app"
+               BlueprintName = "Unity Hub Native"
                ReferencedContainer = "container:Unity Hub.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,8 +45,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AF66EBE9251AE3900088EC84"
-            BuildableName = "Unity Hub S.app"
-            BlueprintName = "Unity Hub S"
+            BuildableName = "Unity Hub Native.app"
+            BlueprintName = "Unity Hub Native"
             ReferencedContainer = "container:Unity Hub.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -68,8 +68,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AF66EBE9251AE3900088EC84"
-            BuildableName = "Unity Hub S.app"
-            BlueprintName = "Unity Hub S"
+            BuildableName = "Unity Hub Native.app"
+            BlueprintName = "Unity Hub Native"
             ReferencedContainer = "container:Unity Hub.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

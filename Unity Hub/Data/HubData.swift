@@ -8,7 +8,7 @@
 import Foundation
 
 struct HubData {
-    static let fileName: String = "UnityHubS/HubData.json"
+    static let fileName: String = "UnityHubNative/HubData.json"
     static var fileLocation: URL { return FileManager.default.urls(for: .applicationSupportDirectory, in: .userDomainMask).first!.appendingPathComponent(fileName, isDirectory: false) }
     
     var uuid: String

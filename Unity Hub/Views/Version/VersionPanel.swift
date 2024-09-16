@@ -31,7 +31,7 @@ struct VersionPanel: View {
                     }
                 }
             }
-			.animation(.interactiveSpring())
+			.animation(.interactiveSpring(), value: showInstaller)
             .navigationTitle("Installs")
             .toolbar {
                 ToolbarItem(placement: .automatic) {

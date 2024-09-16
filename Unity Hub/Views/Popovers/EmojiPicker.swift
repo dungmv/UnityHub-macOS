@@ -50,7 +50,7 @@ struct EmojiPicker: View {
             }
         }
         .frame(width: 320, height: 320)
-        .animation(.interactiveSpring())
+        .animation(.interactiveSpring(), value: emojiQuery)
     }
     
     func emojiCategories() -> some View {
